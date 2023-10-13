@@ -20,7 +20,7 @@ public class Loginpg extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Loginpg.this,Mainpg.class);
+                Intent intent = new Intent(Loginpg.this, Gridpg.class);
                 startActivity(intent);
             }
         });

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.GSLC1mobprog"
         tools:targetApi="31" >
         <activity
-            android:name=".Mainpg"
+            android:name=".Gridpg"
             android:exported="false" />
         <activity
             android:name=".Loginpg"
