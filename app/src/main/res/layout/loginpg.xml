@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Loginpg"
+    android:background="@color/black">
 
     <TextView
 
@@ -12,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="140dp"
-        android:text="Masuk"
-        android:textColor="#FF000000"
+        android:text="Login"
+        android:textColor="#ffff"
         android:textSize="48sp"
         android:id="@+id/txtmasuk">
     </TextView>
@@ -81,12 +82,12 @@
             ></TextView>
 
         <Button
-
+            android:id="@+id/btnLogin"
             android:layout_width="136dp"
             android:layout_height="51dp"
             android:background="@drawable/btnonclick"
             android:layout_marginLeft="135dp"
-            android:hint="Masuk"
+            android:hint="Login"
             android:textColorHint="@color/white"
             android:paddingBottom="10dp"
             ></Button>
@@ -107,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Belum punya akun?"
-            android:textColor="@color/white"
+            android:textColor="@color/hint"
 
             ></TextView>
 
@@ -115,7 +116,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Registrasi"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
 
             ></TextView>
 
